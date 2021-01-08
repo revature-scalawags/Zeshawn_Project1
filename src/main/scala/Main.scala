@@ -1,7 +1,7 @@
 import java.sql._
 object Main extends App {
 
-    var conn: Connection = null 
+    var conn: Connection = _ 
 
     try {
         val connectionString = "jdbc:hive2://localhost:10000/default"
