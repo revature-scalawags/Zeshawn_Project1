@@ -1,7 +1,10 @@
 # Zeshawn_Project1
-- Simple Hive MapReduce application that utilizes Hive to analyze very large data sets
 
-## Technologies
+## Project Description 
+
+A simple Hive MapReduce application that utilizes Hive to analyze very large data sets
+
+## Technologies Used 
 -Scala 2.13.3
 -Hadoop 3.2.1
 -Hive 
@@ -9,9 +12,21 @@
 -sbt 1.4.4
 -Docker container
 
+## Features
+- InputStream - Retrieves twitter stream with Spark session
+- dataMapper - Maps every key in the dataframe to a value
+- dataReduce - Reduces the datasets so that all the keys are distinct values 
 
-## Dependencies
--MapReduce 
--Hadoop 3.2.1
--Scala  1.1.2
--Hive jdbc  3.1.2
+## Getting Started
+
+- MapReduce
+- Install & Configure git
+- Install xCode for easy access
+
+## Usage
+- sbt assembly to package files
+- sbt compile to build
+- sbt run to output 
+
+## Contributors 
+Zeshawn Manzoor
